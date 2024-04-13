@@ -1,12 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import logo from './assets/img/logo2.jpg';
+import teni from './assets/img/teni2.avif';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      
-      </header>
+    <div class="body">
+        <img class="logo" src={logo} />;
     </div>
   );
 }
