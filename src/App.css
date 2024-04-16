@@ -4,27 +4,79 @@
   --clr-black:#000000;
   --clr-white: #f8f9fa;
   --clr-grey: #dee2e6;
+  --clr-orange: #ff7d00;
 }
 
 *{
   margin: 0;
   padding: 0;
   font-family: "Doppio One", sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
   background-color: var(--clr-black);
 }
 
-h1{
-  margin: 2rem;
-  font-size: 2rem;
-  font-weight: 900;
-}
-
-.body{
+header{
   background-color: var(--clr-black);
+  height: 80px;
 }
 
 .logo{
   max-width: 80px;
   max-height: 80px;
   margin-left: 1rem;
+}
+
+.pagina{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.producto{
+  background: linear-gradient(#dee2e6, #000000);
+  border-radius: 20px;
+  border: 2px solid var(--clr-orange);
+  margin: 2rem;
+  color: var(--clr-black);
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.producto-precio{
+  margin: 10px 0 20px;
+  font-weight: 200;
+}
+
+
+.producto-compra{
+  background-color: var(--clr-black);
+  margin: 8rem;
+  width: 130px;
+  height: 50px;
+  border-radius: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.producto-compra a{
+  color: var(--clr-grey);
+}
+
+.producto-compra a:hover{
+  width: 130px;
+  height: 50px;
+  border-radius: 20px;
+  font-weight: bold;
+  background-color: var(--clr-white);
+  color: var(--clr-orange);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
