@@ -27,9 +27,6 @@ function App() {
                     Para pies delgados recomendamos comprar la talla inferior.
                 </p>
             </div>
-            <div class="producto-compra">
-                <a href="https://www.adidas.mx/tenis-de-running-4dfwd-3/ID0853.html">Comprar</a>
-            </div>
         </div>
     </div>
     </div>
